@@ -4,21 +4,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* scrollbar */
+::-webkit-scrollbar{
+    width: 10px;
+    height: 8px;
+    /* display: none; */
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(33, 33, 33);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FB432C;
+    border-radius: 10px;
+    /* border-left: 1px solid rgb(218, 16, 16); */
+}
 
 /* header */
 header {
   display: flex;
-  background-color: black;
+  background-color: #0D0D0D;
   color: white;
   align-items: center;
   justify-content: space-between;
   padding: 20px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 500;
 }
 
 /* nav */
 nav ul {
   display: flex;
-  gap: 20px;
+  gap: 35px;
   list-style: none;
 }
 
@@ -30,6 +47,11 @@ nav ul li a {
   text-decoration: none;
   color: white;
   transition: color 0.3s ease;
+}
+.logonav{
+    display: flex;
+    align-items: center;
+    gap: 70px;
 }
 
 nav ul li a:hover {
@@ -68,4 +90,141 @@ nav ul li a:hover {
 
 .user button:hover {
   background: #FB432C;
+}
+
+/* Hero Section */
+.herosection {
+  text-align: center;
+  padding-top:2rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #0D0D0D;
+  color: white;
+}
+
+/* Headings */
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+}
+
+/* CTA Button */
+.cta-button {
+  background-color: #ff4d30;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.subtext {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+.subtext a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero Visual Adjustments */
+.hero-visual {
+  position: relative;
+  width: 100%;
+  height: 350px; 
+  margin-top: 2rem; 
+}
+
+/* Background curve images */
+.hero-bg-left,
+.hero-bg-right {
+  position: absolute;
+  transform: translateY(-50%);
+  width: 50%;
+  z-index: 1;
+}
+
+.hero-bg-left {
+  left: 50%;
+  transform: translateX(-100%) translateY(-50%);
+}
+
+.hero-bg-right {
+  right: 50%;
+  transform: translateX(100%) translateY(-50%);
+}
+
+
+
+/* Icon Layout */
+.icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Positioning icons around the center */
+.center-icon {
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon1 {
+  top: -15%;
+  left: 20%;
+}
+
+.icon2 {
+  top: -25%;
+  right: 8%;
+}
+
+.icon3 {
+  top: 20%;
+  left: 30%;
+}
+
+.icon4 {
+  top: 5%;
+  right: 20%;
+}
+
+.icon5 {
+  bottom: 40%;
+  left: 17%;
+}
+
+.icon6 {
+  bottom: 48%;
+  right: 23%;
+}
+/* Brands */
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: black;
+    padding: 10px;
 }

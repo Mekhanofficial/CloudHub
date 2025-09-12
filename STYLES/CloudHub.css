@@ -8,7 +8,6 @@
 ::-webkit-scrollbar{
     width: 10px;
     height: 8px;
-    /* display: none; */
 }
 ::-webkit-scrollbar-track{
     background-color: rgb(33, 33, 33);
@@ -16,7 +15,6 @@
 ::-webkit-scrollbar-thumb{
     background-color: #FB432C;
     border-radius: 10px;
-    /* border-left: 1px solid rgb(218, 16, 16); */
 }
 
 /* header */
@@ -140,7 +138,7 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
-/* Hero Visual Adjustments */
+/* Hero Visual */
 .hero-visual {
   position: relative;
   width: 100%;
@@ -167,9 +165,7 @@ nav ul li a:hover {
   transform: translateX(100%) translateY(-50%);
 }
 
-
-
-/* Icon Layout */
+/*Hero Icon Layout */
 .icon {
   position: absolute;
   width: 50px;
@@ -183,7 +179,7 @@ nav ul li a:hover {
   object-fit: contain;
 }
 
-/* Positioning icons around the center */
+/* Positioning hero icons */
 .center-icon {
   top: 28%;
   left: 50%;
@@ -227,4 +223,32 @@ nav ul li a:hover {
     gap: 30px;
     background-color: black;
     padding: 10px;
+}
+
+/* loop section */
+.loopsection{
+    text-align: center;
+    justify-content: center;
+    background-color: #FF591E;
+    padding: 50px;
+    color: white;
+}
+.looptext h1{
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+.looptext h4{
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #d8d8d8;
+}
+.loopimg img{
+    position: relative;
+    top: 53px;
+}
+.looptext button{
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    width: 150px;
 }

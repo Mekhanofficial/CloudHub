@@ -684,5 +684,46 @@ nav ul li a:hover {
         font-size: 0.95rem;
     }
 }
+/* archive text */
+.archive{
+  display: flex;
+  padding: 80px;
+  background-color: #111111;
+  color: #FFFFFF;
+}
+.archive_1{
+  margin: 60px;
+}
+.archive_1 img{
+  margin-bottom: 20px;
+}
+.archive_1 p{
+  margin-bottom: 20px;
+}
+.archive_2{
+  margin: 60px;
+}
+.archive_2 img{
+  margin-bottom: 20px;
+}
+.archive_2 p{
+  margin-bottom: 20px;
+}
+
+.archive_pic1{
+  display: flex; 
+  gap: 10px;
+}
+.archive_pic2{
+  display: flex; 
+  gap: 10px;
+}
+.patreon p{
+  color: #9D9FA1;
+}
+.build p{
+  color: #9D9FA1;
+}
+
 
 

@@ -788,3 +788,62 @@ nav ul li a:hover {
     font-size: 16px;
   }
 }
+/* Designers */
+.designersection{
+  background-color: #111111;
+ color: white;
+ text-align: center;
+ padding: 70px;
+}
+.designersection h1{
+  margin-bottom: 30px;
+  font-size: 38px;
+}
+.designersgrid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-areas:
+  "grid1 grid2 grid3 grid4"
+  "grid5 grid6 grid7 grid8"
+  ;
+  gap: 20px;
+}
+.grid1{
+  grid-area: grid1;
+  background-color: #282828;
+  border-radius: 20px;
+}
+.grid2{
+  grid-area: grid2;
+  background-color: #282828;
+    border-radius: 20px;
+}
+.grid3{
+  grid-area: grid3;
+    background-color: #282828;
+      border-radius: 20px;
+}
+.grid4{
+  grid-area: grid4;
+    background-color: #282828;
+   border-radius: 20px;   
+}
+.grid5{
+  grid-area: grid5;
+    background-color: #282828;
+      border-radius: 20px;
+}
+.grid6{
+  grid-area: grid6;
+    background-color: #282828;  border-radius: 20px;
+}
+.grid7{
+  grid-area: grid7;
+    background-color: #282828;
+      border-radius: 20px;
+}
+.grid8{
+  grid-area: grid8;
+    background-color: #282828;
+      border-radius: 20px;
+}

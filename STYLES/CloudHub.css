@@ -788,3 +788,58 @@ nav ul li a:hover {
     font-size: 16px;
   }
 }
+/* archive section */
+.progress{
+  padding: 20px;
+  background-color: #111111;
+  color: #FFFFFF;
+}
+.profiles{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+  justify-content: space-between;
+
+  
+}
+.line{
+  display: flex;
+  justify-content: center;
+}
+.profile_1{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #282828;
+  border-radius: 20px;
+}
+.profile_1 img{
+  position: relative;
+  top: 19px;
+}
+.profile_2{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #282828;
+   border-radius: 20px;
+}
+.profile_2 img{
+   position: relative;
+  top: 60px;
+
+}
+.follow p{
+  color:#BDBDBD;
+}
+.follow_1 p{
+  color:#BDBDBD;
+}
+.follow h5{
+  margin-bottom: 5px;
+}
+.follow_1 h5{
+  margin-bottom: 5px;
+}
+

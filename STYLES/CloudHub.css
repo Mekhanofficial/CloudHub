@@ -788,58 +788,62 @@ nav ul li a:hover {
     font-size: 16px;
   }
 }
-/* archive section */
-.progress{
-  padding: 20px;
+/* Designers */
+.designersection{
   background-color: #111111;
-  color: #FFFFFF;
+ color: white;
+ text-align: center;
+ padding: 70px;
 }
-.profiles{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: 40px;
-  justify-content: space-between;
-
-  
+.designersection h1{
+  margin-bottom: 30px;
+  font-size: 38px;
 }
-.line{
-  display: flex;
-  justify-content: center;
+.designersgrid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-areas:
+  "grid1 grid2 grid3 grid4"
+  "grid5 grid6 grid7 grid8"
+  ;
+  gap: 20px;
 }
-.profile_1{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
+.grid1{
+  grid-area: grid1;
   background-color: #282828;
   border-radius: 20px;
 }
-.profile_1 img{
-  position: relative;
-  top: 19px;
-}
-.profile_2{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
+.grid2{
+  grid-area: grid2;
   background-color: #282828;
-   border-radius: 20px;
+    border-radius: 20px;
 }
-.profile_2 img{
-   position: relative;
-  top: 60px;
-
+.grid3{
+  grid-area: grid3;
+    background-color: #282828;
+      border-radius: 20px;
 }
-.follow p{
-  color:#BDBDBD;
+.grid4{
+  grid-area: grid4;
+    background-color: #282828;
+   border-radius: 20px;   
 }
-.follow_1 p{
-  color:#BDBDBD;
+.grid5{
+  grid-area: grid5;
+    background-color: #282828;
+      border-radius: 20px;
 }
-.follow h5{
-  margin-bottom: 5px;
+.grid6{
+  grid-area: grid6;
+    background-color: #282828;  border-radius: 20px;
 }
-.follow_1 h5{
-  margin-bottom: 5px;
+.grid7{
+  grid-area: grid7;
+    background-color: #282828;
+      border-radius: 20px;
 }
-
+.grid8{
+  grid-area: grid8;
+    background-color: #282828;
+      border-radius: 20px;
+}

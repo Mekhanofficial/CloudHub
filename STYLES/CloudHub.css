@@ -224,7 +224,7 @@ nav ul li a:hover {
     background-color: black;
     padding: 10px;
 }
-<<<<<<< HEAD
+
 /* working section */
 .share_container{
   display: flex;
@@ -246,7 +246,8 @@ nav ul li a:hover {
 .work{
   display: flex;
   margin-top: 20px;
-  gap: 10px;
+  gap: 5px;
+  align-items: center;
 }
 .work img{
    width: 20px;
@@ -266,159 +267,165 @@ nav ul li a:hover {
   align-items: center;
   background-color: #111111;
   color: white;
-  padding: 80px;
+  padding: 90px;
 }
 .frame_1 img{
-  width: 500px;
+  width: 550px;
   background-color: #282828;
   border-radius: 20px;
 }
-.frame_1{
-   margin-top: 20px;
-}
 .share_container button{
-  width: 90px;
+  width: 60px;
   border-radius: 50px;
-  padding: 10px;
+  padding: 5px;
   background-color:#FF591E;
   color: white;
   border: none;
   font-weight: 500;
   font-size: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .share_container h1{
-  font-size: 30px;
-  margin-bottom: 30px;
+  font-size: 40px;
+  margin-bottom: 15px;
 }
-.share_container p_1{
-  font-size: 20px;
+.share_container .p_1{
+  font-size: 18px;
   color: #9D9FA1;
-  margin-bottom: 40px;
-  padding: 20px;
 }
+
 /* feedback section */
-.pending{
-  background-color: white;
-  padding: 40px;
-  border-radius: 40px;
+.feedbacksection {
+  display: flex;
+  align-items: center;
+  background-color: #111;
+  padding: 50px;
+  gap: 80px;
+}
+
+/* Left card */
+.feed_section {
+  background-color: #282828;
+  padding: 80px;
+  border-radius: 30px;
+}
+
+.pending {
+  background-color: #fff;
+  padding: 40px 20px;
+  border-radius: 30px;
   width: 400px;
 }
-.pending_1{
+
+.pending_1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.pending_1 img{
-  width: 30px;
-  height: 20px;
-}
-.pending_1 h1{
+
+.pending_1 h1 {
   font-size: 20px;
 }
 
-
-.buzz_1{
-  display: flex;
-  align-items: center;
-
-}
-.buzz_1 h3{
-  font-size: 15px;
+.pending_1 img {
+  width: 30px;
+  height: 20px;
 }
 
-.buzz{
+/* People rows */
+.buzz,
+.valdivia,
+.deirx {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 12px 0;
 }
-.buzz p{
-  color: #9D9FA1;
-}
-.hr_1{
-  color: #9D9FA1;
-}
-.valdivia_1{
+
+.buzz_1,
+.valdivia_1,
+.deirx_1 {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.valdivia h3{
+
+.buzz h3,
+.valdivia h3,
+.deirx h3 {
   font-size: 15px;
 }
-.valdivia{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+.buzz p,
+.valdivia p,
+.deirx p {
+  color: #9d9fa1;
+  font-size: 14px;
 }
-.valdivia p{
-  color: #9D9FA1;
+
+.hr_1 {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 0;       
+  width: 100%;       
 }
-.deirx_1{
+
+.pic {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-top: 15px;
+  color: #FB432C;
 }
-.deirx{
+
+.pic img {
+  width: 30px;
+}
+
+/* Right section */
+.feedback_1 {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  width: 550px;
+  padding: 20px;
 }
-.deirx_1 h3{
-  font-size: 15px;
-}
-.deirx p{
-  color: #9D9FA1;
-}
-.pic{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.pic img{
-  width: 25px;
-}
-.feedbacksection{
-  display: flex;
-  align-items: center;
-  background-color: #111111;
-  padding: 50px;
-}
-.feedback_1{
-  display: flex;
-  flex-direction: column; 
-  margin-left: 80px;
-}
-.feedback_1 h1{
-  color: white;
-  margin-bottom: 10px;
-}
-.feedback_1 p{
-  color:#9D9FA1;
-}
-.work h5{
-  color:#D7D7D7;
-}
-.feedback_1 button{
-  width: 120px;
+
+.feedback_1 button {
+  width: 90px;
   border-radius: 40px;
   padding: 10px;
-  background-color:#FF591E;
-  color: white;
+  background-color: #ff591e;
+  color: #fff;
   border: none;
   font-size: 15px;
   margin-bottom: 15px;
-
-}
-.feed_section{
-background-color:#282828;
-padding: 50px;
-border-radius: 30px;
 }
 
+.feedback_1 h1 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
 
-=======
+.feedback_1 p {
+  color: #9d9fa1;
+  font-size: 18px;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.work h5 {
+  color: #d7d7d7;
+  font-size: 13px;
+}
+
+
 
 /* loop section */
 .loopsection{
@@ -447,4 +454,3 @@ border-radius: 30px;
     border: none;
     width: 150px;
 }
->>>>>>> 96faf334397f9720c2c524892916882f1b7d1a7a

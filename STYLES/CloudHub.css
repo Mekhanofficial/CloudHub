@@ -94,7 +94,6 @@ nav ul li a:hover {
 }
 
 /* Hero Section */
-/* Hero Section */
 .herosection {
   text-align: center;
   padding-top: 2rem;
@@ -140,7 +139,6 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
-/* Show/hide versions */
 .mobile-only {
   display: none;
 }
@@ -194,12 +192,30 @@ nav ul li a:hover {
   transform: translate(-50%, -50%);
 }
 
-.icon1 { top: -15%; left: 20%; }
-.icon2 { top: -25%; right: 8%; }
-.icon3 { top: 20%; left: 30%; }
-.icon4 { top: 5%; right: 20%; }
-.icon5 { bottom: 40%; left: 17%; }
-.icon6 { bottom: 48%; right: 23%; }
+.icon1 {
+   top: -15%;
+   left: 20%; 
+  }
+.icon2 { 
+  top: -25%; 
+  right: 8%;
+ }
+.icon3 { 
+  top: 20%;
+  left: 30%; 
+}
+.icon4 {
+  top: 5%; 
+  right: 20%; 
+}
+.icon5 { 
+  bottom: 40%;
+  left: 17%; 
+}
+.icon6 { 
+  bottom: 48%;
+  right: 23%;
+ }
 
 /* Brands */
 .brands {
@@ -449,18 +465,18 @@ nav ul li a:hover {
 
 /* ========== Responsive (max-width: 640px) ========== */
 @media screen and (max-width: 640px) {
-  /* Header adjustments */
+  /* Header  */
   header {
     flex-direction: row;
     padding: 15px 20px;
   }
 
   nav ul {
-    display: none; /* Hide navigation */
+    display: none; 
   }
 
   .user {
-    display: none; /* Hide login + button on mobile */
+    display: none; 
   }
 
 .mobile-menu{
@@ -529,8 +545,6 @@ nav ul li a:hover {
     width: 30px;
     height: 50px;
   }
-
-
   .hero-bg-left {
     left: 0;
     top: 28%;
@@ -598,6 +612,7 @@ nav ul li a:hover {
     max-width: 120px;
     object-fit: contain;
   }
+
   /* Working Section */
   .workingsection {
     flex-direction: column-reverse;
@@ -616,8 +631,6 @@ nav ul li a:hover {
   .share_container .p_1 {
     font-size: 1rem;
   }
-
- 
 
   /* Feedback Section */
   .feedbacksection {
@@ -646,11 +659,11 @@ nav ul li a:hover {
   .feedback_1 p {
     font-size: 1rem;
   }
+  /* loop section */
   .loopsection {
         padding: 30px 20px;
         min-height: 70vh;
         background: linear-gradient(to bottom, #FF591E 0%, #000000 100%);
-
     }
     .looptext h1 {
         font-size: 2rem;

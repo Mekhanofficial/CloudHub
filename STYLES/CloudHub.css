@@ -399,6 +399,142 @@ nav ul li a:hover {
   color: #9D9FA1;
 }
 
+/* feedback section1 */
+.feedbacksection_1{
+  padding: 100px;
+  background-color: #FF591E;
+  color: white;
+}
+.select{
+  background-color: #111111;
+  border-radius: 20px;
+  width: 100%;
+  padding: 20px;
+}
+.hub{
+  border: 2px solid black;
+  width: 100%;
+  padding: 20px;
+  border: none;
+    background-color:#222222;
+  color: white;
+ border-radius: 0 0 20px 20px; 
+}
+.hub_1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team h5{
+  margin-bottom: 20px;
+}
+.team h1{
+  margin-bottom: 20px;
+}
+.cloud{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.cloud img{
+  width: 30px;
+}
+.brand{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.brand p{
+  color: #484848;
+}
+.week_1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.week{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.week_1 img{
+  width: 50px;
+}
+.box img{
+  width: 20px;
+}
+.hub_1 button{
+  background-color: #FF591E;
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 10px;
+  width: 120px;
+  border: none;
+}
+.feedbacksection_1hr{
+  display: none;
+  background-color: #202020;
+}
+.feedbacksection_2{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  bottom: 30px;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.menu_1{
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #111111;
+  color: white;
+  border-radius: 15px;
+  text-align: left;
+}
+.menu_1 p{
+  color: #737373;
+}
+.menu_1 h5{
+  margin-top: 10px;
+}
+.menu_2{
+  border: 2px solid black;
+   padding: 10px;
+  background-color: #111111;
+  color: white;
+  border-radius: 15px;
+   text-align: left;
+}
+.menu_2 p{
+   color: #737373;
+    margin-top: 8px;
+}
+.menu_3{
+  border: 2px solid black;
+   padding: 10px;
+  background-color: #111111;
+  color: white;
+  border-radius: 15px;
+   text-align: left;
+}
+.menu_3 p{
+   color: #737373;
+   margin-top: 8px;  
+}
+
+
 
 /* feedback section */
 .feedbacksection {
@@ -1073,11 +1209,86 @@ nav ul li a:hover {
       flex-direction: column;
       gap: 20px;
     }
-    /* feedback section1 */
-    .menu{
-      display: flex;
-      flex-direction: column;
-    }
+/* feedbacksection1 */
+.feedbacksection_1{
+  padding:40px;
+  background-color: #FF591E;
+  color: white;
+}
+  .team h1 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .team h5 {
+    font-size: 1rem;
+  }
+
+  .feedbacksection_2 {
+    flex-direction: column;
+    bottom: 0;
+    
+  }
+  .feedbacksection_1hr{
+    display: block;
+    margin-top: 12px;
+  }
+  .hub {
+    border-radius: 15px;
+    padding: 15px;
+    background: none;
+    padding: 2px;
+  }
+
+  .hub_1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .hub_1 button {
+    width: 90px;
+  }
+
+  .week {
+    gap: 10px;
+    text-align: left;
+    align-items: center;
+  }
+  .week_1{
+    flex-direction: column;
+    font-size: 0.9rem;
+  }
+  .week_1 img {
+    width: 90px;
+    align-self: flex-start;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .menu_1,
+  .menu_2,
+  .menu_3 {
+    padding: 15px;
+    text-align: left;
+  }
+
+  .cloud img {
+    width: 50px;
+    background-color: #282828;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+
+  .box img {
+    width: 18px;
+  }
     
 }
 /* footer */
@@ -1139,134 +1350,3 @@ footer{
     font-size: 15px;
      margin-bottom: 10px;
 }
-/* feedback section1 */
-.feedbacksection_1{
-  padding: 100px;
-  background-color: #FF591E;
-  color: white;
-}
-.select{
-  background-color: #111111;
-  border-radius: 20px;
-  width: 100%;
-  padding: 20px;
-}
-.hub{
-  border: 2px solid black;
-  width: 100%;
-  padding: 20px;
-  border: none;
-    background-color:#222222;
-  color: white;
- border-radius: 0 0 20px 20px; 
-}
-.hub_1{
-  display: flex;
-  justify-content: space-between;
-}
-
-.team{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.team h5{
-  margin-bottom: 20px;
-}
-.team h1{
-  margin-bottom: 20px;
-}
-.cloud{
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-.cloud img{
-  width: 30px;
-}
-.brand{
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-
-}
-.week_1{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.week{
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-}
-.week_1 img{
-  width: 50px;
-}
-.box img{
-  width: 20px;
-}
-.hub_1 button{
-  background-color: #FF591E;
-  color: #FFFFFF;
-  border-radius: 20px;
-  padding: 10px;
-  width: 120px;
-  border: none;
-}
-.feedbacksection_2{
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  position: relative;
-  bottom: 30px;
-}
-.menu{
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
-}
-.menu_1{
-  border: 2px solid black;
-  padding: 10px;
-  background-color: #111111;
-  color: white;
-  border-radius: 15px;
-  text-align: left;
-}
-.menu_1 p{
-  color: #737373;
-}
-.menu_1 h5{
-  margin-top: 10px;
-}
-.menu_2{
-  border: 2px solid black;
-   padding: 10px;
-  background-color: #111111;
-  color: white;
-  border-radius: 15px;
-   text-align: left;
-}
-.menu_2 p{
-   color: #737373;
-    margin-top: 8px;
-}
-.menu_3{
-  border: 2px solid black;
-   padding: 10px;
-  background-color: #111111;
-  color: white;
-  border-radius: 15px;
-   text-align: left;
-}
-.menu_3 p{
-   color: #737373;
-   margin-top: 8px;  
-}
-
-
-

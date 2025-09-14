@@ -978,3 +978,64 @@ nav ul li a:hover {
         height: auto;
     }
 }
+/* footer */
+footer{
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  
+}
+.footer_heading{
+  display: flex;
+  padding: 40px;
+  gap: 100px;
+  
+}
+.footer_heading img{
+  width: 30px;
+  height: 30px;
+}
+.studio p{
+  display: flex;
+  justify-content: center; 
+   color: #9D9FA1;
+}
+.producer p{
+  color: #9D9FA1;
+   margin-bottom: 20px;
+}
+.producer h5{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.legal p{
+  color: #9D9FA1;
+   margin-bottom: 20px;
+}
+.legal h5{
+    font-size: 15px;
+     margin-bottom: 10px;
+}
+.big p{
+  color: #9D9FA1;
+   margin-bottom: 20px;
+}
+.big h5{
+    font-size: 15px;
+     margin-bottom: 10px;
+}
+.producer p{
+  color: #9D9FA1;
+  margin-bottom: 20px;
+
+}
+.record p{
+  color: #9D9FA1;
+   margin-bottom: 20px;
+}
+.record h5{
+    font-size: 15px;
+     margin-bottom: 10px;
+}
+
+

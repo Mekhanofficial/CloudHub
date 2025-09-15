@@ -852,6 +852,100 @@ nav ul li a:hover {
     border: none;
     width: 150px;
 }
+/* visibility section */
+.team2 img{
+  width: 35px;
+  margin-bottom: 30px;
+}
+.team2 {
+  padding: 80px;
+  background-color: #000000;
+  color: white;
+  text-align: center; 
+}
+.team2 h5{
+  font-size: 30px;
+}
+.team2 p{
+  color: #9D9FA1;
+  font-size: 20px;
+  
+}
+.demo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.demo button{
+  background-color: #FF591E;
+  color: white;
+  border-radius: 20px;
+  padding: 13px;
+  border: none;
+}
+/* footer */
+footer{
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  
+}
+.footer_heading{
+  display: flex;
+  padding: 40px;
+  gap: 100px;
+  
+}
+.footer_heading img{
+  width: 30px;
+  height: 30px;
+}
+.studio p{
+  display: flex;
+  justify-content: center; 
+   color: #9D9FA1;
+}
+.producer p{
+  color: #9D9FA1;
+   margin-bottom: 20px;
+}
+.producer h5{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.legal p{
+  color: #9D9FA1;
+   margin-bottom: 20px;
+}
+.legal h5{
+    font-size: 15px;
+     margin-bottom: 10px;
+}
+.big p{
+  color: #9D9FA1;
+   margin-bottom: 20px;
+}
+.big h5{
+    font-size: 15px;
+     margin-bottom: 10px;
+}
+.producer p{
+  color: #9D9FA1;
+  margin-bottom: 20px;
+
+}
+.record p{
+  color: #9D9FA1;
+   margin-bottom: 20px;
+}
+.record h5{
+    font-size: 15px;
+     margin-bottom: 10px;
+}
+
+
 
 
 /* ========== Responsive (max-width: 640px) ========== */
@@ -1021,6 +1115,84 @@ nav ul li a:hover {
 
   .share_container .p_1 {
     font-size: 1rem;
+  }
+  /* feedbacksection1 */
+.feedbacksection_1{
+  padding:40px;
+  background-color: #FF591E;
+  color: white;
+}
+  .team h1 {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .team h5 {
+    font-size: 1rem;
+  }
+
+  .feedbacksection_2 {
+    flex-direction: column;
+    bottom: 0;
+    
+  }
+  .feedbacksection_1hr{
+    display: block;
+    margin-top: 12px;
+  }
+  .hub {
+    border-radius: 15px;
+    padding: 15px;
+    background: none;
+    padding: 2px;
+  }
+
+  .hub_1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .hub_1 button {
+    width: 90px;
+  }
+
+  .week {
+    gap: 10px;
+    text-align: left;
+    align-items: center;
+  }
+  .week_1{
+    flex-direction: column;
+    font-size: 0.9rem;
+  }
+  .week_1 img {
+    width: 90px;
+    align-self: flex-start;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .menu_1,
+  .menu_2,
+  .menu_3 {
+    padding: 15px;
+    text-align: left;
+  }
+
+  .cloud img {
+    width: 50px;
+    background-color: #282828;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .box img {
+    width: 18px;
   }
 
   /* Feedback Section */
@@ -1205,148 +1377,28 @@ nav ul li a:hover {
         min-height: 30vh;
         height: auto;
     }
-    .footer_heading{
-      flex-direction: column;
-      gap: 20px;
-    }
-/* feedbacksection1 */
-.feedbacksection_1{
-  padding:40px;
-  background-color: #FF591E;
-  color: white;
-}
-  .team h1 {
-    font-size: 1.5rem;
-    line-height: 1.8rem;
+
+
+   .footer_heading {
+    flex-direction: column;  
+    align-items: start;      
+    gap: 30px;               
+    padding: 20px;
+    text-align: left;    
   }
 
-  .team h5 {
-    font-size: 1rem;
+  .footer_heading img {
+    margin-bottom: 15px;
   }
 
-  .feedbacksection_2 {
-    flex-direction: column;
-    bottom: 0;
-    
-  }
-  .feedbacksection_1hr{
-    display: block;
-    margin-top: 12px;
-  }
-  .hub {
-    border-radius: 15px;
-    padding: 15px;
-    background: none;
-    padding: 2px;
+  .producer, .legal, .big, .record {
+    margin-bottom: 20px;  
   }
 
-  .hub_1 {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-  }
-
-  .hub_1 button {
-    width: 90px;
-  }
-
-  .week {
-    gap: 10px;
-    text-align: left;
-    align-items: center;
-  }
-  .week_1{
-    flex-direction: column;
-    font-size: 0.9rem;
-  }
-  .week_1 img {
-    width: 90px;
-    align-self: flex-start;
-  }
-
-  .menu {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 15px;
+  .studio p {
+    font-size: 14px;
+    text-align: center;
     margin-top: 20px;
   }
-
-  .menu_1,
-  .menu_2,
-  .menu_3 {
-    padding: 15px;
-    text-align: left;
-  }
-
-  .cloud img {
-    width: 50px;
-    background-color: #282828;
-    padding: 5px;
-    border-radius: 10px;
-  }
-
-
-  .box img {
-    width: 18px;
-  }
     
-}
-/* footer */
-footer{
-  background-color: #000000;
-  color: white;
-  padding: 20px;
-  
-}
-.footer_heading{
-  display: flex;
-  padding: 40px;
-  gap: 100px;
-  
-}
-.footer_heading img{
-  width: 30px;
-  height: 30px;
-}
-.studio p{
-  display: flex;
-  justify-content: center; 
-   color: #9D9FA1;
-}
-.producer p{
-  color: #9D9FA1;
-   margin-bottom: 20px;
-}
-.producer h5{
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.legal p{
-  color: #9D9FA1;
-   margin-bottom: 20px;
-}
-.legal h5{
-    font-size: 15px;
-     margin-bottom: 10px;
-}
-.big p{
-  color: #9D9FA1;
-   margin-bottom: 20px;
-}
-.big h5{
-    font-size: 15px;
-     margin-bottom: 10px;
-}
-.producer p{
-  color: #9D9FA1;
-  margin-bottom: 20px;
-
-}
-.record p{
-  color: #9D9FA1;
-   margin-bottom: 20px;
-}
-.record h5{
-    font-size: 15px;
-     margin-bottom: 10px;
 }

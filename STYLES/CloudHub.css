@@ -83,11 +83,12 @@ nav ul li a:hover {
   background: #FF591E;
   color: white;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 
 .user button:hover {
-  background: #FB432C;
+  background: #a61e0c;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 .mobile-menu{
   display: none;
@@ -111,7 +112,9 @@ nav ul li a:hover {
   line-height: 1.2;
   margin-bottom: 0.5rem;
 }
-
+.hero-text{
+  overflow: hidden;
+}
 .hero-text p {
   color: #7f8c8d;
   font-size: 1.1rem;
@@ -127,9 +130,8 @@ nav ul li a:hover {
   color: white;
   cursor: pointer;
   margin-top: 1.5rem;
+  display: inline-block;   
 }
-
-
 
 
 .subtext {
@@ -389,6 +391,10 @@ nav ul li a:hover {
   font-weight: 500;
   font-size: 15px;
   margin-bottom: 15px;
+  cursor: pointer;
+}
+.share_container button:hover{
+  transform: scale(1.05);
 }
 .share_container h1{
   font-size: 40px;
@@ -852,6 +858,10 @@ nav ul li a:hover {
     border: none;
     width: 150px;
 }
+.looptext button:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
 /* visibility section */
 .team2 img{
   width: 35px;
@@ -884,6 +894,11 @@ nav ul li a:hover {
   border-radius: 20px;
   padding: 13px;
   border: none;
+  cursor: pointer;
+}
+.demo button:hover{
+    transform: scale(1.05);
+  transition: 0.2s ease;
 }
 /* footer */
 footer{
